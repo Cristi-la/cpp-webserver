@@ -1,3 +1,7 @@
+server
+server.log
+.vscode/
+
 ##### Windows
 # Windows thumbnail cache files
 Thumbs.db
