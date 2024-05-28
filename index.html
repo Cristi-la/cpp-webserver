@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Server Functionality Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+<body>
+    <main class="container">
+        <center>
+        
+        <h1>Web Server Functionality Testhhhh</h1>
+        
+        <h2>Static File Serving</h2>
+        <p>Click the link below to test serving an image:</p>
+        <a href="/test/image.png" target="_blank">Test Image</a>
+        <br><br>
+        <img src="/test/image.png" alt="Test Image" style="width:200px;height:auto;">
+        
+        <h2>GET Request with Query Parameters</h2>
+        <form method="get" style="width: 50%">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe">
+            <input type="submit" value="Submit GET Request">
+        </form>
+        
+        <h2>POST Request with Form Data</h2>
+        <form action="/post/test" method="post" style="width: 50%">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="john.doe@example.com">
+            <input type="submit" value="Submit POST Request">
+        </form>
+        </center>
+    </main>
+</body>
+</html>
